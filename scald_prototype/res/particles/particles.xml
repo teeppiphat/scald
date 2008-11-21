@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has the characteristic of all the particles
+  
+  6.2831855
+-->
+
+<Particles>
+
+	<Fire2>	
+		<Information>
+			<Name>Fire</Name>
+			<Type>Custom</Type>
+			<Number>300</Number> 
+		</Information>
+		
+		<Texture>
+			<File>flaresmall.jpg</File>
+			<Path>res/images/texture/</Path>
+		</Texture>
+	
+		<PositionAndEmission>
+			<EmissionX>0.0</EmissionX>
+	  		<EmissionY>1.0</EmissionY>
+	  		<EmissionZ>0.0</EmissionZ>
+	  		
+	  		<PositionX>5.0</PositionX>
+	  		<PositionY>0.0</PositionY>
+	  		<PositionZ>-10.0</PositionZ>		
+		</PositionAndEmission>
+		  		
+  		<Others>
+	  		<InitialVelocity>0.03</InitialVelocity>
+			<InitialSize>1.0</InitialSize>
+			<FinalSize>1.0</FinalSize>
+			<SpinSpeed>0.0</SpinSpeed>
+			<MinimumAngle>0.0</MinimumAngle>
+			<MaximumAngle>0.20943952</MaximumAngle>			
+  		</Others>
+  		
+  		<Release>
+	  		<ReleaseRate>300</ReleaseRate>
+	  		<ReleaseVariance>0.00</ReleaseVariance>
+			<MinimumLifeTime>1000.0</MinimumLifeTime>
+			<MaximumLifeTime>1500.0</MaximumLifeTime>
+  		</Release>
+  		
+  		<Color>
+  			<StartColorR>1</StartColorR>
+			<StartColorG>0.312</StartColorG>
+			<StartColorB>0.121</StartColorB>
+			<StartColorA>1</StartColorA>
+			
+			<EndColorR>1</EndColorR>
+			<EndColorG>0.312</EndColorG>
+			<EndColorB>0.121</EndColorB>
+			<EndColorA>0.0</EndColorA>
+  		</Color>  		
+	
+		<Controller>
+			<Life>10</Life>	
+			<ParticleMove>true</ParticleMove>
+			<ParticleIncrease>0.1</ParticleIncrease>
+			<EmissionIncrease>0.01</EmissionIncrease>
+			<ParticleCircle>true</ParticleCircle>		
+			<EmissionCircle>true</EmissionCircle>
+			<EmissionChange>true</EmissionChange>
+			<ControlFlow>true</ControlFlow>
+			<Iterations>10</Iterations>	
+			<RepeatType>Wrap</RepeatType>
+			<Speed>1.0</Speed>
+		</Controller>
+		
+		<Gravity>
+			<GravityDirectionX>0.0</GravityDirectionX>
+			<GravityDirectionY>-3.0</GravityDirectionY>
+			<GravityDirectionZ>0.0</GravityDirectionZ>		
+			<GravityRotateWithScene>true</GravityRotateWithScene>
+		</Gravity>
+			
+		<Wind>
+			<WindStrenght>0.0</WindStrenght>
+			<WindDirectionX>0.0</WindDirectionX>
+			<WindDirectionY>0.0</WindDirectionY>
+			<WindDirectionZ>0.0</WindDirectionZ>
+			<WindRandom>false</WindRandom>
+			<WindRotateWithScene>false</WindRotateWithScene>
+		</Wind>	
+	
+		<Drag>
+			<DragCoef>0.0</DragCoef>
+		</Drag>
+		
+		<Vortex>
+			<VortexOriginX>0.0</VortexOriginX>
+			<VortexOriginY>0.0</VortexOriginY>
+			<VortexOriginZ>0.0</VortexOriginZ>
+			<VortexDirectionX>0.0</VortexDirectionX>
+			<VortexDirectionY>0.0</VortexDirectionY>
+			<VortexDirectionZ>0.0</VortexDirectionZ>
+			<VortexStrenght>0.0</VortexStrenght>
+			<VortexDivergence>0.0</VortexDivergence>
+			<VortexRandom>false</VortexRandom>
+			<VortexTransformWithScene>false</VortexTransformWithScene>
+		</Vortex>
+		
+		<Swarm>
+			<SwarmPositionX>0.0</SwarmPositionX>
+			<SwarmPositionY>2.0</SwarmPositionY>
+			<SwarmPositionZ>-45.0</SwarmPositionZ>
+			<SwarmRange>0.001</SwarmRange>
+			<MaxSpeed>0.2</MaxSpeed>
+			<SpeedBump>0.025</SpeedBump>
+			<TurnSpeed>6.2831855</TurnSpeed>
+		</Swarm>
+		
+		<Paths>
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>-10.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>2.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>			
+		</Paths>
+		
+		<Emissions>		
+			<Emission>
+				<EmissionX>0.0</EmissionX>
+				<EmissionY>-1.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+		
+			<Emission>
+				<EmissionX>-1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+			
+			<Emission>
+				<EmissionX>1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>		
+		</Emissions>		
+		
+	</Fire2>
+	
+	<Line>
+	
+		<Information>
+			<Name>Lines</Name>
+			<Type>Lines</Type>
+			<Number>300</Number> 
+		</Information>
+  		
+  		<PositionAndEmission>
+			<EmissionX>0.0</EmissionX>
+	  		<EmissionY>1.0</EmissionY>
+	  		<EmissionZ>0.0</EmissionZ>
+	  		
+	  		<PositionX>0.0</PositionX>
+	  		<PositionY>2.0</PositionY>
+	  		<PositionZ>-45.0</PositionZ>		
+		</PositionAndEmission>
+  		
+  		<Others>
+	  		<InitialVelocity>0.01</InitialVelocity>
+			<InitialSize>1.5</InitialSize>
+			<FinalSize>0.00005</FinalSize>
+			<SpinSpeed>9.424778</SpinSpeed>
+			<MinimumAngle>0.0</MinimumAngle>
+			<MaximumAngle>6.2831855</MaximumAngle>	
+  		</Others>
+  		
+  		<Release>
+	  		<ReleaseRate>300</ReleaseRate>
+	  		<ReleaseVariance>0.00</ReleaseVariance>
+			<MinimumLifeTime>1200.0</MinimumLifeTime>
+			<MaximumLifeTime>1400.0</MaximumLifeTime>
+  		</Release>
+  		  	
+  		 <Line>
+			<LineWidth>3.0</LineWidth>
+			<Mode>Loop</Mode>		
+			<Orientation>1.5707964</Orientation>  		 
+  		 </Line>	
+				
+		<Controller>
+			<Life>20</Life>	
+			<ParticleMove>true</ParticleMove>
+			<ParticleIncrease>0.1</ParticleIncrease>
+			<EmissionIncrease>0.01</EmissionIncrease>
+			<ParticleCircle>true</ParticleCircle>		
+			<EmissionCircle>true</EmissionCircle>
+			<EmissionChange>true</EmissionChange>
+			<ControlFlow>true</ControlFlow>
+			<Iterations>10</Iterations>	
+			<RepeatType>Wrap</RepeatType>
+			<Speed>1.0</Speed>
+		</Controller>
+				
+		<Color>
+  			<StartColorR>1</StartColorR>
+			<StartColorG>1</StartColorG>
+			<StartColorB>1</StartColorB>
+			<StartColorA>1</StartColorA>
+			
+			<EndColorR>0.5</EndColorR>
+			<EndColorG>0.5</EndColorG>
+			<EndColorB>0.5</EndColorB>
+			<EndColorA>1</EndColorA>
+  		</Color> 
+				
+		<Paths>
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>-10.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>5.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>2.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>			
+		</Paths>
+		
+		<Emissions>		
+			<Emission>
+				<EmissionX>0.0</EmissionX>
+				<EmissionY>-1.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+		
+			<Emission>
+				<EmissionX>-1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+			
+			<Emission>
+				<EmissionX>1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>		
+		</Emissions>	
+			
+		
+		
+	</Line>
+	
+	<Point>
+	
+		<Information>
+			<Name>Points</Name> 
+  			<Number>300</Number> 
+  			<Type>Point</Type>
+		</Information>
+		
+		<Texture>
+			<File>flaresmall.jpg</File>
+			<Path>res/images/texture/</Path>
+		</Texture>
+	
+		<PositionAndEmission>
+			<EmissionX>0.0</EmissionX>
+	  		<EmissionY>1.0</EmissionY>
+	  		<EmissionZ>0.0</EmissionZ>
+	  		
+	  		<PositionX>0.0</PositionX>
+	  		<PositionY>2.0</PositionY>
+	  		<PositionZ>-45.0</PositionZ>		
+		</PositionAndEmission>
+	
+		<Color>
+  			<StartColorR>1</StartColorR>
+			<StartColorG>1</StartColorG>
+			<StartColorB>1</StartColorB>
+			<StartColorA>1</StartColorA>
+			
+			<EndColorR>0.5</EndColorR>
+			<EndColorG>0.5</EndColorG>
+			<EndColorB>0.5</EndColorB>
+			<EndColorA>1</EndColorA>
+  		</Color>  
+	  		
+	  	<Controller>
+			<Life>20</Life>
+			<ParticleMove>true</ParticleMove>
+			<ParticleIncrease>0.1</ParticleIncrease>
+			<EmissionIncrease>0.01</EmissionIncrease>
+			<ParticleCircle>true</ParticleCircle>		
+			<EmissionCircle>true</EmissionCircle>
+			<EmissionChange>true</EmissionChange>	
+			<ControlFlow>true</ControlFlow>
+			<Iterations>10</Iterations>
+			<RepeatType>Wrap</RepeatType>
+			<Speed>1.0</Speed>
+		</Controller>
+	  			  		  		
+  		<Others>
+	  		<InitialVelocity>0.01</InitialVelocity>
+			<InitialSize>1.5</InitialSize>
+			<FinalSize>0.00005</FinalSize>
+			<SpinSpeed>0.0</SpinSpeed>
+			<MinimumAngle>0.0</MinimumAngle>
+			<MaximumAngle>6.2831855</MaximumAngle>		
+  		</Others>
+  		
+  		<Release>
+	  		<ReleaseRate>300</ReleaseRate>
+	  		<ReleaseVariance>0.00</ReleaseVariance>
+			<MinimumLifeTime>1200.0</MinimumLifeTime>
+			<MaximumLifeTime>1400.0</MaximumLifeTime>
+  		</Release>
+	
+	  	<Point>
+			<PointSize>5.0</PointSize>
+		</Point>
+				
+		<Paths>
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>-10.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>5.0</PositionX>
+				<PositionY>0.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>
+
+			<Path>
+				<PositionX>0.0</PositionX>
+				<PositionY>2.0</PositionY>		
+				<PositionZ>0.0</PositionZ>
+			</Path>			
+		</Paths>
+		
+		<Emissions>		
+			<Emission>
+				<EmissionX>0.0</EmissionX>
+				<EmissionY>-1.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+		
+			<Emission>
+				<EmissionX>-1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>
+			
+			<Emission>
+				<EmissionX>1.0</EmissionX>
+				<EmissionY>0.0</EmissionY>		
+				<EmissionZ>0.0</EmissionZ>
+			</Emission>		
+		</Emissions>
+		
+	</Point>
+	
+	<Smoke>
+  		<Name>Smoke</Name> 
+  		<Number>300</Number> 
+  		<Type>Custom</Type>
+  		<Speed>0.2</Speed>
+  		<ReleaseRate>500</ReleaseRate>
+  		<ReleaseVariance>0.01</ReleaseVariance>
+  		<SpinSpeed>0.8</SpinSpeed>
+  		<EmissionX>0.0</EmissionX>
+  		<EmissionY>0.02</EmissionY>
+  		<EmissionZ>0.0</EmissionZ>
+  		<PositionX>0.0</PositionX>
+  		<PositionY>2.0</PositionY>
+  		<PositionZ>-40.0</PositionZ>
+  		<InitialVelocity>0.58</InitialVelocity>
+		<InitialSize>1.0</InitialSize>
+		<FinalSize>0.0</FinalSize>
+		<MinimumLifeTime>1000.0</MinimumLifeTime>
+		<MaximumLifeTime>1500.0</MaximumLifeTime>
+		<StartColorR>0</StartColorR>
+		<StartColorG>0</StartColorG>
+		<StartColorB>0</StartColorB>
+		<StartColorA>1</StartColorA>
+		<EndColorR>1</EndColorR>
+		<EndColorG>1</EndColorG>
+		<EndColorB>1</EndColorB>
+		<EndColorA>0</EndColorA>
+		<MinimumAngle>0.0</MinimumAngle>
+		<MaximumAngle>0.36651915f</MaximumAngle>
+		<Iterations>10</Iterations>
+		<UseTexture>No</UseTexture>  				
+  		<Texture>flaresmall.jpg</Texture>
+  		<TexturePath>res/images/texture/</TexturePath> 		
+		<RepeatType>None</RepeatType>
+		<ControlFlow>false</ControlFlow>
+		<Iterations>10</Iterations>
+		<Life>30</Life>		
+		
+		<GravityInfluence>No</GravityInfluence>
+		<GravityDirectionX>0.0</GravityDirectionX>
+		<GravityDirectionY>-3.0</GravityDirectionY>
+		<GravityDirectionZ>0.0</GravityDirectionZ>		
+		<GravityRotateWithScene>true</GravityRotateWithScene>
+	
+		<WindInfluence>No</WindInfluence>
+		<WindStrenght>0.0</WindStrenght>
+		<WindDirectionX>0.0</WindDirectionX>
+		<WindDirectionY>0.0</WindDirectionY>
+		<WindDirectionZ>0.0</WindDirectionZ>
+		<WindRandom>false</WindRandom>
+		<WindRotateWithScene>false</WindRotateWithScene>
+								
+		<DragInfluence>No</DragInfluence>
+		<DragCoef>0.0</DragCoef>
+		
+		<VortexInfluence>No</VortexInfluence>
+		<VortexOriginX>0.0</VortexOriginX>
+		<VortexOriginY>0.0</VortexOriginY>
+		<VortexOriginZ>0.0</VortexOriginZ>
+		<VortexDirectionX>0.0</VortexDirectionX>
+		<VortexDirectionY>0.0</VortexDirectionY>
+		<VortexDirectionZ>0.0</VortexDirectionZ>
+		<VortexStrenght>0.0</VortexStrenght>
+		<VortexDivergence>0.0</VortexDivergence>
+		<VortexRandom>false</VortexRandom>
+		<VortexTransformWithScene>false</VortexTransformWithScene>
+		
+		<SwarnInfluence>No</SwarnInfluence>
+		<SwarnPositionX>0.0</SwarnPositionX>
+		<SwarnPositionY>2.0</SwarnPositionY>
+		<SwarnPositionZ>-45.0</SwarnPositionZ>
+		<SwarnRange>0.001</SwarnRange>
+		<MaxSpeed>0.2</MaxSpeed>
+		<SpeedBump>0.025</SpeedBump>
+		<TurnSpeed>6.2831855</TurnSpeed>
+		
+		<ParticleMove>true</ParticleMove>
+		<ParticleIncrease>0.1</ParticleIncrease>
+		<QuantityPath>3</QuantityPath>
+
+		<Path1PositionX>-5.0</Path1PositionX>
+		<Path1PositionY>0.0</Path1PositionY>		
+		<Path1PositionZ>0.0</Path1PositionZ>
+
+		<Path2PositionX>5.0</Path2PositionX>
+		<Path2PositionY>0.0</Path2PositionY>		
+		<Path2PositionZ>0.0</Path2PositionZ>
+
+		<Path3PositionX>0.0</Path3PositionX>
+		<Path3PositionY>2.0</Path3PositionY>		
+		<Path3PositionZ>0.0</Path3PositionZ>
+		
+		<EmissionChange>true</EmissionChange>
+		<QuantityEmission>3</QuantityEmission>
+		
+		<Path1EmissionX>0.0</Path1EmissionX>
+		<Path1EmissionY>0.0</Path1EmissionY>		
+		<Path1EmissionZ>1.0</Path1EmissionZ>
+
+		<Path2EmissionX>-1.0</Path2EmissionX>
+		<Path2EmissionY>0.0</Path2EmissionY>		
+		<Path2EmissionZ>0.0</Path2EmissionZ>
+
+		<Path3EmissionX>1.0</Path3EmissionX>
+		<Path3EmissionY>0.0</Path3EmissionY>		
+		<Path3EmissionZ>0.0</Path3EmissionZ>	
+		
+		<EmissionIncrease>0.01</EmissionIncrease>
+
+		<ParticleCircle>true</ParticleCircle>		
+		<EmissionCircle>true</EmissionCircle>
+		
+		
+	</Smoke>
+	
+	<Swarn>
+		<Name>Particle</Name> 
+  		<Number>30</Number> 
+  		<Type>Custom</Type>
+  		<UseTexture>No</UseTexture>  				
+  		<Texture>flaresmall.jpg</Texture>
+  		<TexturePath>res/images/texture/</TexturePath> 
+  		
+  		<EmissionX>0.0</EmissionX>
+  		<EmissionY>1.0</EmissionY>
+  		<EmissionZ>0.0</EmissionZ>
+  		
+  		<PositionX>0.0</PositionX>
+  		<PositionY>2.0</PositionY>
+  		<PositionZ>-45.0</PositionZ>
+  		
+  		<InitialVelocity>0.05</InitialVelocity>
+		<InitialSize>0.3</InitialSize>
+		<FinalSize>0.15</FinalSize>
+		<SpinSpeed>0.0</SpinSpeed>
+		<Speed>0.75</Speed>
+  		<ReleaseRate>300</ReleaseRate>
+  		<ReleaseVariance>0.00</ReleaseVariance>
+		<MinimumLifeTime>5000.0</MinimumLifeTime>
+		<MaximumLifeTime>15000.0</MaximumLifeTime>
+		<StartColorR>1</StartColorR>
+		<StartColorG>0</StartColorG>
+		<StartColorB>0</StartColorB>
+		<StartColorA>1</StartColorA>
+		<EndColorR>0</EndColorR>
+		<EndColorG>1</EndColorG>
+		<EndColorB>0</EndColorB>
+		<EndColorA>1</EndColorA>
+		<MinimumAngle>0.0</MinimumAngle>
+		<MaximumAngle>6.2831855</MaximumAngle>		
+		<RepeatType>Wrap</RepeatType>
+		<ControlFlow>false</ControlFlow>
+		<Iterations>10</Iterations>
+		<Life>30</Life>
+		
+		<GravityInfluence>No</GravityInfluence>
+		<GravityDirectionX>0.0</GravityDirectionX>
+		<GravityDirectionY>-3.0</GravityDirectionY>
+		<GravityDirectionZ>0.0</GravityDirectionZ>		
+		<GravityRotateWithScene>true</GravityRotateWithScene>
+		
+		<WindInfluence>No</WindInfluence>
+		<WindStrenght>0.0</WindStrenght>
+		<WindDirectionX>0.0</WindDirectionX>
+		<WindDirectionY>0.0</WindDirectionY>
+		<WindDirectionZ>0.0</WindDirectionZ>
+		<WindRandom>false</WindRandom>
+		<WindRotateWithScene>false</WindRotateWithScene>
+								
+		<DragInfluence>No</DragInfluence>
+		<DragCoef>0.0</DragCoef>
+		
+		<VortexInfluence>No</VortexInfluence>
+		<VortexOriginX>0.0</VortexOriginX>
+		<VortexOriginY>0.0</VortexOriginY>
+		<VortexOriginZ>0.0</VortexOriginZ>
+		<VortexDirectionX>0.0</VortexDirectionX>
+		<VortexDirectionY>0.0</VortexDirectionY>
+		<VortexDirectionZ>0.0</VortexDirectionZ>
+		<VortexStrenght>0.0</VortexStrenght>
+		<VortexDivergence>0.0</VortexDivergence>
+		<VortexRandom>false</VortexRandom>
+		<VortexTransformWithScene>false</VortexTransformWithScene>
+		
+		<SwarnInfluence>Use</SwarnInfluence>
+		<SwarnPositionX>0.0</SwarnPositionX>
+		<SwarnPositionY>2.0</SwarnPositionY>
+		<SwarnPositionZ>-45.0</SwarnPositionZ>
+		<SwarnRange>0.001</SwarnRange>
+		<MaxSpeed>0.2</MaxSpeed>
+		<SpeedBump>0.025</SpeedBump>
+		<TurnSpeed>6.2831855</TurnSpeed>
+		
+		<ParticleMove>true</ParticleMove>
+		<ParticleIncrease>0.1</ParticleIncrease>
+		<QuantityPath>3</QuantityPath>
+
+		<Path1PositionX>5.0</Path1PositionX>
+		<Path1PositionY>0.0</Path1PositionY>		
+		<Path1PositionZ>0.0</Path1PositionZ>
+
+		<Path2PositionX>0.0</Path2PositionX>
+		<Path2PositionY>0.0</Path2PositionY>		
+		<Path2PositionZ>10.0</Path2PositionZ>
+
+		<Path3PositionX>0.0</Path3PositionX>
+		<Path3PositionY>2.0</Path3PositionY>		
+		<Path3PositionZ>0.0</Path3PositionZ>
+
+		<EmissionChange>true</EmissionChange>		
+		<QuantityEmission>3</QuantityEmission>
+		
+		<Path1EmissionX>0.0</Path1EmissionX>
+		<Path1EmissionY>-1.0</Path1EmissionY>		
+		<Path1EmissionZ>0.0</Path1EmissionZ>
+
+		<Path2EmissionX>-1.0</Path2EmissionX>
+		<Path2EmissionY>0.0</Path2EmissionY>		
+		<Path2EmissionZ>0.0</Path2EmissionZ>
+
+		<Path3EmissionX>1.0</Path3EmissionX>
+		<Path3EmissionY>0.0</Path3EmissionY>		
+		<Path3EmissionZ>0.0</Path3EmissionZ>	
+		
+		<EmissionIncrease>0.01</EmissionIncrease>
+
+		<ParticleCircle>true</ParticleCircle>		
+		<EmissionCircle>true</EmissionCircle>
+		
+	</Swarn>
+	
+	<Snow>
+		<Name>Snow</Name> 
+  		<Number>300</Number> 
+  		<Type>Custom</Type>
+  		<UseTexture>No</UseTexture>  				
+  		<Texture>flaresmall.jpg</Texture>
+  		<TexturePath>res/images/texture/</TexturePath> 
+  		
+  		<EmissionX>0.0</EmissionX>
+  		<EmissionY>-1.0</EmissionY>
+  		<EmissionZ>0.0</EmissionZ>
+  		
+  		<PositionX>0.0</PositionX>
+  		<PositionY>35.0</PositionY>
+  		<PositionZ>-45.0</PositionZ>
+  		
+  		<InitialVelocity>0.0359999996</InitialVelocity>
+		<InitialSize>0.3</InitialSize>
+		<FinalSize>0.3</FinalSize>
+		<SpinSpeed>0.0</SpinSpeed>
+		<Speed>0.15</Speed>
+  		<ReleaseRate>300</ReleaseRate>
+  		<ReleaseVariance>0.00</ReleaseVariance>
+		<MinimumLifeTime>1057.0</MinimumLifeTime>
+		<MaximumLifeTime>1500.0</MaximumLifeTime>
+		<StartColorR>0.3764706</StartColorR>
+		<StartColorG>0.3764706</StartColorG>
+		<StartColorB>0.3764706</StartColorB>
+		<StartColorA>1</StartColorA>
+		<EndColorR>0.3764706</EndColorR>
+		<EndColorG>0.3764706</EndColorG>
+		<EndColorB>0.3764706</EndColorB>
+		<EndColorA>0.1882353</EndColorA>
+		<MinimumAngle>0.0</MinimumAngle>
+		<MaximumAngle>1.5707964f</MaximumAngle>		
+		<RepeatType>Wrap</RepeatType>
+		<ControlFlow>false</ControlFlow>
+		<Iterations>10</Iterations>
+		<Life>30</Life>
+		
+		<GravityInfluence>Use</GravityInfluence>
+		<GravityDirectionX>0.0</GravityDirectionX>
+		<GravityDirectionY>-3.0</GravityDirectionY>
+		<GravityDirectionZ>0.0</GravityDirectionZ>		
+		<GravityRotateWithScene>true</GravityRotateWithScene>
+		
+		<WindInfluence>No</WindInfluence>
+		<WindStrenght>0.0</WindStrenght>
+		<WindDirectionX>0.0</WindDirectionX>
+		<WindDirectionY>0.0</WindDirectionY>
+		<WindDirectionZ>0.0</WindDirectionZ>
+		<WindRandom>false</WindRandom>
+		<WindRotateWithScene>false</WindRotateWithScene>
+								
+		<DragInfluence>No</DragInfluence>
+		<DragCoef>0.0</DragCoef>
+		
+		<VortexInfluence>No</VortexInfluence>
+		<VortexOriginX>0.0</VortexOriginX>
+		<VortexOriginY>0.0</VortexOriginY>
+		<VortexOriginZ>0.0</VortexOriginZ>
+		<VortexDirectionX>0.0</VortexDirectionX>
+		<VortexDirectionY>0.0</VortexDirectionY>
+		<VortexDirectionZ>0.0</VortexDirectionZ>
+		<VortexStrenght>0.0</VortexStrenght>
+		<VortexDivergence>0.0</VortexDivergence>
+		<VortexRandom>false</VortexRandom>
+		<VortexTransformWithScene>false</VortexTransformWithScene>
+		
+		<SwarnInfluence>No</SwarnInfluence>
+		<SwarnPositionX>0.0</SwarnPositionX>
+		<SwarnPositionY>2.0</SwarnPositionY>
+		<SwarnPositionZ>-45.0</SwarnPositionZ>
+		<SwarnRange>0.001</SwarnRange>
+		<MaxSpeed>0.2</MaxSpeed>
+		<SpeedBump>0.025</SpeedBump>
+		<TurnSpeed>6.2831855</TurnSpeed>
+		
+		<ParticleMove>true</ParticleMove>
+		<ParticleIncrease>0.1</ParticleIncrease>
+		<QuantityPath>3</QuantityPath>
+
+		<Path1PositionX>0.0</Path1PositionX>
+		<Path1PositionY>0.0</Path1PositionY>		
+		<Path1PositionZ>-10.0</Path1PositionZ>
+
+		<Path2PositionX>0.0</Path2PositionX>
+		<Path2PositionY>0.0</Path2PositionY>		
+		<Path2PositionZ>0.0</Path2PositionZ>
+
+		<Path3PositionX>0.0</Path3PositionX>
+		<Path3PositionY>2.0</Path3PositionY>		
+		<Path3PositionZ>0.0</Path3PositionZ>
+
+		<EmissionChange>true</EmissionChange>		
+		<QuantityEmission>3</QuantityEmission>
+		
+		<Path1EmissionX>0.0</Path1EmissionX>
+		<Path1EmissionY>-1.0</Path1EmissionY>		
+		<Path1EmissionZ>0.0</Path1EmissionZ>
+
+		<Path2EmissionX>-1.0</Path2EmissionX>
+		<Path2EmissionY>0.0</Path2EmissionY>		
+		<Path2EmissionZ>0.0</Path2EmissionZ>
+
+		<Path3EmissionX>1.0</Path3EmissionX>
+		<Path3EmissionY>0.0</Path3EmissionY>		
+		<Path3EmissionZ>0.0</Path3EmissionZ>	
+		
+		<EmissionIncrease>0.01</EmissionIncrease>
+
+		<ParticleCircle>true</ParticleCircle>		
+		<EmissionCircle>true</EmissionCircle>
+		
+	</Snow>
+	       
+</Particles>

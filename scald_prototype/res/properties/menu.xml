@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has the configuration for the menus
+-->
+
+<Menus>
+
+	<MainMenu>
+	
+		<MainPanel>
+			
+			<!--Where-->		
+			<Where>
+				<!--Size-->
+				<SizeX>200</SizeX>
+				<SizeY>535</SizeY>
+				<!--Position-->
+				<PosX>40</PosX>
+				<PosY>100</PosY>		
+			</Where>
+			
+			<!--Images, Border and Background-->
+			<ImagesBB>
+				<!--Border-->
+				
+				<BorderImage>BorderMenu.png</BorderImage>
+				<BorderImagePath>res/images/</BorderImagePath>		
+				
+				<!--
+				<BorderImage></BorderImage>
+				<BorderImagePath></BorderImagePath>						
+				-->
+				<!--Background-->
+				<BackgroundImage>BackgroundMenu2.png</BackgroundImage>
+				<BackgroundImagePath>res/images/</BackgroundImagePath>		
+			</ImagesBB>
+			
+	
+			<!-- Inventory Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>440</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuInventoryNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuInventoryPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuInventorySobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Inventory</Event>	
+			</Option>
+						
+			<!-- Magic Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>380</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuMagicNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuMagicPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuMagicSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Magic</Event>	
+			</Option>
+			<!-- Skill Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>320</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuSkillNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuSkillPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuSkillSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Skill</Event>	
+			</Option>
+			<!-- Equip Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>260</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuEquipNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuEquipPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuEquipSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Equip</Event>	
+			</Option>
+			<!-- Status Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>200</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuStatusNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuStatusPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuStatusSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Status</Event>	
+			</Option>
+			<!-- Order Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>140</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuOrderNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuOrderPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuOrderSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Order</Event>	
+			</Option>			
+			<!-- Save Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>80</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuSaveNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuSavePressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuSaveSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Save</Event>	
+			</Option>
+			<!-- Load Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>150</SizeX>
+					<SizeY>50</SizeY>
+					<!--Position-->
+					<PosX>10</PosX>
+					<PosY>20</PosY>		
+				</Where>
+						
+				<DefaultImage>BotãoMenuLoadNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/menu/</DefaultPath>
+				
+				<PressedImage>BotãoMenuLoadPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/menu/</PressedPath>
+				
+				<HighLightImage>BotãoMenuLoadSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/menu/</HighLightPath>
+				
+				<Event>Load</Event>	
+			</Option>
+							
+		</MainPanel>
+	
+	<!--
+		<Panel>
+		
+			<SizeX>200</SizeX>
+			<SizeY>700</SizeY>
+			<PosX>0</PosX>
+			<PosY>20</PosY>
+		
+		</Panel>
+	-->
+	
+	</MainMenu>
+
+	<BattleMenu>
+	
+		<MainPanel>
+		
+			<!--Where-->		
+			<Where>
+				<!--Size-->
+				<SizeX>300</SizeX>
+				<SizeY>600</SizeY>
+				<!--Position-->
+				<PosX>600</PosX>
+				<PosY>100</PosY>		
+			</Where>
+			
+			<!--Images, Border and Background-->
+			<ImagesBB>
+				<!--Border-->
+				
+				<BorderImage>BorderMenu.png</BorderImage>
+				<BorderImagePath>res/images/</BorderImagePath>		
+				
+				<!--
+				<BorderImage></BorderImage>
+				<BorderImagePath></BorderImagePath>						
+				-->
+				<!--Background-->
+				<BackgroundImage>FundoBatalha.png</BackgroundImage>
+				<BackgroundImagePath>res/images/</BackgroundImagePath>		
+			</ImagesBB>
+				
+			<!-- Attack Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>200</SizeX>
+					<SizeY>100</SizeY>
+					<!--Position-->
+					<PosX>35</PosX>
+					<PosY>440</PosY>		
+				</Where>
+						
+				<DefaultImage>AtaqueBotãoNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/battleMenu/</DefaultPath>
+				
+				<PressedImage>AtaqueBotãoPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/battleMenu/</PressedPath>
+				
+				<HighLightImage>AtaqueBotãoSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/battleMenu/</HighLightPath>
+				
+				<Event>Attack</Event>	
+			</Option>
+			
+			<!-- Defend Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>200</SizeX>
+					<SizeY>100</SizeY>
+					<!--Position-->
+					<PosX>35</PosX>
+					<PosY>340</PosY>		
+				</Where>
+						
+				<DefaultImage>DefendeBotãoNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/battleMenu/</DefaultPath>
+				
+				<PressedImage>DefendeBotãoPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/battleMenu/</PressedPath>
+				
+				<HighLightImage>DefendeBotãoSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/battleMenu/</HighLightPath>
+				
+				<Event>Defend</Event>	
+			</Option>
+			<!-- Magic Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>200</SizeX>
+					<SizeY>100</SizeY>
+					<!--Position-->
+					<PosX>35</PosX>
+					<PosY>240</PosY>		
+				</Where>
+						
+				<DefaultImage>MagiaBotãoNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/battleMenu/</DefaultPath>
+				
+				<PressedImage>MagiaBotãoPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/battleMenu/</PressedPath>
+				
+				<HighLightImage>MagiaBotãoSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/battleMenu/</HighLightPath>
+				
+				<Event>Magic</Event>	
+			</Option>
+			
+			<!-- Item Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>200</SizeX>
+					<SizeY>100</SizeY>
+					<!--Position-->
+					<PosX>35</PosX>
+					<PosY>140</PosY>		
+				</Where>
+						
+				<DefaultImage>ItemBotãoNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/battleMenu/</DefaultPath>
+				
+				<PressedImage>ItemBotãoPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/battleMenu/</PressedPath>
+				
+				<HighLightImage>ItemBotãoSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/battleMenu/</HighLightPath>
+				
+				<Event>Item</Event>	
+			</Option>
+			
+			<!-- Run Button -->
+			<Option>
+			
+				<!--Where-->		
+				<Where>
+					<!--Size-->
+					<SizeX>200</SizeX>
+					<SizeY>100</SizeY>
+					<!--Position-->
+					<PosX>35</PosX>
+					<PosY>40</PosY>		
+				</Where>
+						
+				<DefaultImage>FogeBotãoNormal.png</DefaultImage>
+				<DefaultPath>res/images/buttons/battleMenu/</DefaultPath>
+				
+				<PressedImage>FogeBotãoPressionado.png</PressedImage>
+				<PressedPath>res/images/buttons/battleMenu/</PressedPath>
+				
+				<HighLightImage>FogeBotãoSobre.png</HighLightImage>
+				<HighLightPath>res/images/buttons/battleMenu/</HighLightPath>
+				
+				<Event>Run</Event>	
+			</Option>
+			
+					
+		</MainPanel>
+	
+	</BattleMenu>
+	
+	<Conversation>	
+		<Where>
+			<SizeX>300</SizeX>
+			<SizeY>300</SizeY>		
+			<PosX>500</PosX>
+			<PosY>300</PosY>
+		</Where>
+		
+		<Font>				
+			<Font>Sttng</Font>
+			<TextColorRed>1</TextColorRed>
+			<TextColorGreen>1</TextColorGreen>
+			<TextColorBlue>1</TextColorBlue>
+			<TextColorAlpha>1</TextColorAlpha>
+		</Font>
+		
+		<ImagesBB>
+			<WindowBorder>BorderMenu.png</WindowBorder>
+			<WindowBorderPath>res/images/</WindowBorderPath>		
+			<WindowBackground>Background.png</WindowBackground>
+			<WindowBackgroundPath>res/images/</WindowBackgroundPath>		
+		</ImagesBB>				
+	</Conversation>
+
+</Menus>

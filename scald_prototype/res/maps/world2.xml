@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+	File used to describe a Free map type
+-->
+
+<World>
+
+	<!-- Set the type of movement used, free or paths -->
+	<Movement>Free</Movement>
+	
+	<!-- Indicates a portal that has in the map, a point
+	that takes the player to another place, its description
+	changes according to the type of movement used.
+	Has all the portals of this map
+	 -->	
+	<Portals>		
+		<Portal>
+			<!-- Indicates the point that takes to this portal, name
+			of the point -->
+			<Name>WorldMap</Name>
+			<!-- Indicates the map in the main archive, name -->
+			<Map>World</Map>
+						
+			<!-- Free movement -->
+			<!-- Indicates the position in the map that takes
+			to this portal, making passing the line goes
+			to another place -->
+			<!-- Initial point -->
+			<InitialX>0</InitialX>
+			<InitialY>2</InitialY>
+			<InitialZ>0</InitialZ>		
+			<!-- Final point -->
+			<FinalX>5</FinalX>
+			<FinalY>4</FinalY>
+			<FinalZ>0</FinalZ>		
+		
+		</Portal>
+	
+	</Portals>
+	
+	<!-- Represents the scene of the map, elements that has,
+	change according to the type of the movement -->
+	<Scene>
+	
+		<Character>
+	  		<Name>Character</Name>
+	  		<Model>Lynder</Model>
+	  		<Type>Character</Type>
+	  		<PosX>-1.0</PosX>
+	 	 	<PosY>0.0</PosY>
+	  		<PosZ>0.0</PosZ>
+	 	 	<RotateX>0.0</RotateX>
+	 	 	<RotateY>1.0</RotateY>
+	 	 	<RotateZ>0.0</RotateZ>
+	  		<Scale>0.025</Scale>
+	  		<Material>Default</Material>
+	  		<Density>0.0</Density>
+	  		<Slide>0.0</Slide>
+	  		<Bounce>0.0</Bounce>  	
+	  		<Event></Event>
+	  		<PathEvent></PathEvent>  
+	 	 </Character>  
+	 		
+ 		<Object>
+	  		<Name>Who</Name>
+	  		<Model>Lynder</Model>
+	  		<Type>NPC</Type>
+	  		<PosX>2.0</PosX>
+	 	 	<PosY>0.0</PosY>
+	  		<PosZ>0.0</PosZ>
+	 	 	<RotateX>0.0</RotateX>
+	 	 	<RotateY>1.0</RotateY>
+	 	 	<RotateZ>0.0</RotateZ>
+	  		<Scale>0.025</Scale>
+	  		<Material>Default</Material>
+	  		<Density>0.0</Density>
+	  		<Slide>0.0</Slide>
+	  		<Bounce>0.0</Bounce>  	
+	  		<Event>battle.js</Event>
+	  		<PathEvent>res/enemyScript/</PathEvent>  
+	 	 </Object>   	 
+		
+	     <Terrain>
+	 		<Name>Terrain</Name>
+	 		<Model>Terrain</Model>
+	  		<Type>Terrain</Type>
+	  		<PosX>0.0</PosX>
+	 	 	<PosY>0.0</PosY>
+	  		<PosZ>15.0</PosZ>
+	 	 	<RotateX>10.0</RotateX>
+	 	 	<RotateY>0.0</RotateY>
+	 	 	<RotateZ>0.0</RotateZ>
+	  		<Scale>1.0</Scale>
+	  		<Material>Default</Material>
+	  		<Density>0.0</Density>
+	  		<Slide>0.0</Slide>
+	  		<Bounce>0.0</Bounce>  	
+	  		<Event></Event>
+	  		<PathEvent></PathEvent> 
+	 	 </Terrain>
+	</Scene>
+
+	<!-- Defines the camera used for this map -->
+	<Camera>
+	
+		<!-- Define the parameters of the camera for this map -->
+		<Parameters>
+		
+			<!-- Define the parameters used for the frustum -->
+			<Frustum>
+			
+				<!-- Angle of vision -->	
+				<ViewAngle>45.0</ViewAngle>
+				<!-- Aspect Ratio -->
+				<AspectRatio>1.33</AspectRatio>
+				<!-- Values used to be near the camera and far from the camera,
+				distance that can see -->
+				<Near>1</Near>
+				<Far>1000</Far>
+				
+			</Frustum>
+			
+			<!-- Define the positions used for the camera -->
+			<Position>
+			
+				<!-- Define the location of the camera -->
+				<LocX>-2</LocX>
+				<LocY>2</LocY>
+				<LocZ>12</LocZ>
+						
+				<!-- Define the direction of the camera, can´t
+				always be considerated, depends on the behavior, more used for
+				Fixed behavior, Free and Determined behavior have the camera
+				direction as the character position, to keep it in the center -->
+				<LeftX>-1</LeftX>
+				<LeftY>0</LeftY>
+				<LeftZ>0</LeftZ>
+						
+				<!-- Define the direction of the camera -->
+				<UpX>0</UpX>
+				<UpY>1</UpY>
+				<UpZ>0</UpZ>
+				
+				<!-- Define the direction of the camera -->
+				<DirX>0</DirX>
+				<DirY>0</DirY>
+				<DirZ>-1</DirZ>
+				
+			</Position>
+			
+			<!-- Defines the area the camera can´t go out, only needed if the
+			camera moves -->
+			<Area>
+			
+				<!-- Axis X -->
+				<MinimunX>-51</MinimunX>
+				<MaximunX>30</MaximunX>
+				
+				<!-- Axis Y -->
+				<MinimunY>-50</MinimunY>
+				<MaximunY>50</MaximunY>
+				
+				<!-- Axis Z -->
+				<MinimunZ>-50</MinimunZ>
+				<MaximunZ>50</MaximunZ>				
+						
+			</Area>
+							
+		</Parameters>
+		
+		<!-- If uses a Strategy -->
+		<UsesStrategy>false</UsesStrategy>
+
+		<!-- If the behavior uses Strategys -->		
+		<Strategys>			
+			<!-- The name of the Strategy that want to use -->
+			<StrategyName>FreeX5</StrategyName>
+			<!-- The name of the Strategy that want to use -->
+			<StrategyName>FreeY5</StrategyName>		
+		</Strategys>
+				
+		<!-- If the behavior uses a Strategy -->
+		<!--<Strategy></Strategy> -->
+	
+		<!-- If the behavior is customized -->
+		<Customs>
+						
+			<!-- How to specify one behavior -->
+			<Customized>
+			
+				<!-- Ask for the type used, can be Fixed, Determined and Free -->
+				<Type>Determined</Type>
+				
+				<!-- If is Determined or Free must ask an axis of rotation, because
+				the movement of the camera is always the same -->
+				<Axis>Y</Axis>
+				
+				<!-- If is Determined must specify the the initial angle, the final
+				angle, the rotation if is clock wise or anti-clock wise and
+				the number of divisions, the number of divisions must result
+				an integer value so that the camera don´t lose it self-->
+				<InitialAngle>0</InitialAngle>
+				<FinalAngle>180</FinalAngle>
+				<!-- The values used are false for Clock or true for AntiClock -->
+				<Rotation>true</Rotation>
+				<!-- The number of divisions, used to set how much rotate at a time -->		
+				<Division>2</Division>	
+				
+			</Customized>	
+			
+		</Customs>
+		
+	</Camera>
+
+</World>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+	File used to describe the animation of the dwarf model
+-->
+
+<Dwarf>
+	<!-- The type of the animation Bone or KeyFrame-->
+	<Type></Type>
+	<!-- All the animations -->
+	<Animations>
+		<!-- One animation -->
+		<Animation>
+			<!-- The name of the animation -->
+			<Name></Name>
+			<!-- The initial frame -->
+			<Begin></Begin>
+			<!-- The final frame -->
+			<End></End>		
+		</Animation>
+
+		<!-- One animation -->
+		<Animation>
+			<!-- The name of the animation -->
+			<Name></Name>
+			<!-- The initial frame -->
+			<Begin></Begin>
+			<!-- The final frame -->
+			<End></End>		
+		</Animation>
+
+		<!-- One animation -->
+		<Animation>
+			<!-- The name of the animation -->
+			<Name></Name>
+			<!-- The initial frame -->
+			<Begin></Begin>
+			<!-- The final frame -->
+			<End></End>		
+		</Animation>
+
+		<!-- One animation -->
+		<Animation>
+			<!-- The name of the animation -->
+			<Name></Name>
+			<!-- The initial frame -->
+			<Begin></Begin>
+			<!-- The final frame -->
+			<End></End>		
+		</Animation>
+
+		<!-- One animation -->
+		<Animation>
+			<!-- The name of the animation -->
+			<Name></Name>
+			<!-- The initial frame -->
+			<Begin></Begin>
+			<!-- The final frame -->
+			<End></End>		
+		</Animation>
+
+	
+	</Animations>
+
+</Dwarf>

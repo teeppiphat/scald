@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has the configuration of features
+-->
+
+<Abilitys>
+
+	<!-- THE STATUS TYPE -->
+
+	<!-- The identifier of the skill -->
+	<HitPoints>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>HP</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The hit points of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>9999</Maximum>
+		</Values>
+		
+	</HitPoints>
+
+	<!-- The identifier of the skill -->
+	<MagicPoints>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>MP</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The magic points of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>9999</Maximum>
+		</Values>
+		
+	</MagicPoints>
+
+	<!-- The identifier of the skill -->
+	<Strenght>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Str</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The strenght of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Strenght>
+	
+	<!-- The identifier of the skill -->
+	<Agility>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Agi</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The agility of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Agility>
+	
+	<!-- The identifier of the skill -->
+	<Constitution>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Con</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The constitution of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Constitution>
+	
+	<!-- The identifier of the skill -->
+	<Intelligence>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Int</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Intelligence>
+	
+	<!-- The identifier of the skill -->
+	<Wisdom>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Wis</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The wisdom of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Wisdom>
+			
+	<!-- The identifier of the skill -->
+	<AttackPower>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>AtkPow</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>9999</Maximum>
+		</Values>
+		
+	</AttackPower>
+	
+	<!-- The identifier of the skill -->
+	<MagicPower>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>MagPow</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>9999</Maximum>
+		</Values>
+		
+	</MagicPower>
+	
+	<!-- The identifier of the skill -->
+	<PhysicalResistence>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>PhyDef</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>9999</Maximum>
+		</Values>
+		
+	</PhysicalResistence>
+
+	<!-- The identifier of the skill -->
+	<MagicalResistence>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>MagDef</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</MagicalResistence>
+
+	<!-- The identifier of the skill -->
+	<Speed>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Speed</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The intelligence of the character</Description>			
+		</General>		
+		
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Status</TypeOf>					
+		</SpecificType>
+		
+		<!-- Has the values, the initial and the maximum value, that can have,
+		to be used for things like strenght, agility, isn´t used as a level -->
+		<Values>
+			<!-- Initial value -->
+			<Initial>10</Initial>
+			<!-- Maximum value can have -->
+			<Maximum>999</Maximum>
+		</Values>
+		
+	</Speed>
+	
+	<!-- THE RESTRICTIONS TYPE -->
+
+	<!-- The identifier of the skill -->	
+	<WeaponRight>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Right Arm</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The place where can equip weapons</Description>			
+		</General>
+				
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Restriction</TypeOf>
+			<!-- type -->
+			<TypeOf>Weapon</TypeOf>
+		</SpecificType>
+	</WeaponRight>
+
+	<!-- The identifier of the skill -->	
+	<WeaponLeft>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Left Arm</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>The place where can equip weapons</Description>			
+		</General>
+				
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Restriction</TypeOf>
+			<!-- type -->
+			<TypeOf>Weapon</TypeOf>
+			<!-- type -->
+			<TypeOf>Shield</TypeOf>
+		</SpecificType>
+	</WeaponLeft>
+
+	<!-- THE SKILLS TYPE, THINGS THAT CAN USE -->
+	
+	<Swordsmanship>
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Swordsmanship</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>Can use a weapon of the type Sword</Description>			
+		</General>
+				
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Equipament</TypeOf>
+			<!-- type -->
+			<TypeOf>Sword</TypeOf>			
+		</SpecificType>
+				
+	</Swordsmanship>
+	
+	<Shield>
+	
+		<!-- Has the general information -->
+		<General>
+			<!-- Name, will be used in the game -->
+			<Name>Shield</Name>			
+			<!-- General type -->
+			<Type>Skill</Type>		
+			<!-- Description -->
+			<Description>Can use an equipament of the type Shield</Description>			
+		</General>
+				
+		<!--more specific type-->
+		<SpecificType>
+			<!-- the others type -->
+			<!-- type -->
+			<TypeOf>Equipament</TypeOf>
+			<!-- type -->
+			<TypeOf>Shield</TypeOf>			
+		</SpecificType>
+	
+	</Shield>
+
+</Abilitys>

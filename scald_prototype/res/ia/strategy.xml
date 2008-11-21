@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has the strategy used by an enemy
+-->
+
+<IA>
+
+	<!-- Identifier of the strategy-->
+	<Enemy>
+		<!-- One action that is possible -->
+		<Action>
+			<!-- What will do, can be Attack, Magic, Item, Defend
+			or Run -->
+			<Do></Do>
+			<!-- The chance of doing it -->
+			<Initial></Initial>
+			<Final></Final>
+			<!-- If a Magic or an Item, the identifier -->
+			<Name></Name>
+		</Action>				
+	</Enemy>
+	
+	<!-- Identifier of the strategy -->
+	<Common>
+		<!-- One action that is possible -->
+		<Action>
+			<!-- What will do, can be Attack, Magic, Item, Defend
+			or Run -->
+			<Do>Attack</Do>
+			<!-- The chance of doing it -->
+			<Initial>0</Initial>
+			<Final>70</Final>
+		</Action>
+		
+		<!-- One action that is possible -->
+		<Action>
+			<!-- What will do, can be Attack, Magic, Item, Defend
+			or Run -->
+			<Do>Defend</Do>
+			<!-- The chance of doing it -->
+			<Initial>71</Initial>
+			<Final>89</Final>
+		</Action>
+		
+		<!-- One action that is possible -->
+		<Action>
+			<!-- What will do, can be Attack, Magic, Item, Defend
+			or Run -->
+			<Do>Run</Do>
+			<!-- The chance of doing it -->
+			<Initial>90</Initial>
+			<Final>99</Final>
+		</Action>
+	</Common>
+	
+
+
+</IA>

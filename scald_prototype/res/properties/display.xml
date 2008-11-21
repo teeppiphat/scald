@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+   File used to configure the display used
+-->
+
+<Root>
+
+  <DisplaySettings>
+  	<Renderer value="LWJGL"></Renderer>
+  	<Width value="1024"></Width>
+  	<Heigth value="768"></Heigth>
+  	<Depth value="24"></Depth>
+  	<Frequency value="-1"></Frequency>
+  	<Fullscreen value="false"></Fullscreen>
+  	<Title value=" Version using xml "></Title>  
+   </DisplaySettings>
+   
+</Root>
