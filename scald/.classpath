@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry path="src" kind="src"/>
-	<classpathentry path="res" kind="src"/>
 	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"/>
 	<classpathentry path="/jme" combineaccessrules="false" kind="src"/>
 	<classpathentry path="/jmephysics" combineaccessrules="false" kind="src"/>
