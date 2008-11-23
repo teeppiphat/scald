@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has where all the classes are
+-->
+
+<Classes>
+
+	<!-- Where a class is -->
+	<Class>
+		<!-- The file -->
+		<File></File>
+		<!-- The folder -->
+		<Path></Path>
+	</Class>
+	
+	<!-- A class -->
+	<Warrior>
+		<!-- The file -->
+		<File>warrior.xml</File>
+		<!-- The folder -->
+		<Path>res/class/</Path>	
+	</Warrior>
+	
+	<!-- A class -->
+	<Mage>
+		<!-- The file -->
+		<File>mage.xml</File>
+		<!-- The folder -->
+		<Path>res/class/</Path>	
+	</Mage>
+
+</Classes>

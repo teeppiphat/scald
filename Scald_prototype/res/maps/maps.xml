@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has an indication of all the maps that
+  exist, a way to turn the connection between then
+  easier, the portals.
+-->
+
+<Maps>
+
+	<World>
+		<File>world.xml</File>
+		<Path>res/maps/</Path>
+	</World>
+
+	<City>
+		<File>world2.xml</File>
+		<Path>res/maps/</Path>
+	</City>
+	
+</Maps>

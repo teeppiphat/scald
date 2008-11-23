@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that has the configuration of one character
+-->
+
+<Adan>
+
+	<!-- Generic information of the character-->
+	<Information>
+		<!-- The name of the character -->
+		<Name>Adan Waldo Nash</Name>		
+		<!-- The description of the character -->
+		<Description>A young boy who loves books</Description>	
+	</Information>
+	
+	<!-- Inform the classes that can have, if only one then don´t change -->
+	<Classes>
+		<!-- The name of the class of the character -->
+		<Class>Mage</Class>
+	</Classes>
+		
+	<!-- The Features used as Restrictions, that
+	specify places that can be equipped -->
+	<Restrictions>
+		<!-- Name of the Feature that define -->
+		<Name>WeaponR</Name>
+		<!-- Name of the Feature that define -->
+		<Name>ArmourR</Name>
+		<Name>AcessoryR</Name>
+	</Restrictions>
+		
+	<!-- The image that is used to represent in the menus-->
+	<MenuImage>
+		<!-- The file -->
+		<File>Adan.png</File>
+		<!-- Where the file is -->
+		<Path>res/images/faces/</Path>
+	</MenuImage>
+	
+	<!-- The model used for the battle -->
+	<BattleModel>
+		<!-- The model used -->
+		<Model>Lynder</Model>		
+		<!-- The scale used for this model -->
+		<Scale>0.025</Scale>	
+	</BattleModel>
+</Adan>

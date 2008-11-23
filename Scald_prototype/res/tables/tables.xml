@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File has the reference for all the tables used for experience
+-->
+
+
+<Tables>
+
+<CharacterXPTable>
+	<File>CharacterXPTable.txt</File>
+	<Path>res/tables/</Path>
+	<MaxLevel>20</MaxLevel>
+</CharacterXPTable>
+
+<ClassXPTable>
+	<File>ClassXPTable.txt</File>
+	<Path>res/tables/</Path>
+	<MaxLevel>20</MaxLevel>
+</ClassXPTable>
+
+</Tables>

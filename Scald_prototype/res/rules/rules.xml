@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+  File has the general rules used, like how the battle works,
+  what type of evolution is used, etc.
+-->
+
+
+<Rules>
+
+	<!-- The rule for having itens, who can carry, the character and/or group -->
+	<Storage>
+		<!-- Group can carry,true or false -->
+		<Group>true</Group>
+		<!-- Character can carry,true or false -->
+		<Character>false</Character>
+	</Storage>
+	
+	<!-- The name of the money used -->
+	<Money>Mu</Money>
+
+	<!-- The rules used for battle, everything battle
+	related -->
+	<Battle>
+	
+		<!-- The type of the battle, real-time(Real-Time), progressive(Progressive) or queue(Queue) -->
+		<Type>Queue</Type>
+	
+		<!-- How the encounters with monsters works -->
+		<Encounter>
+			<!-- If the encounters are random,
+			true, they are,
+			false, monster must be in the map -->
+			<Random>false</Random>
+			<!-- If the encounter change the screen,
+			true, change the screen,
+			false, don´t change the screen, only position the characters -->
+			<ChangeScreen>false</ChangeScreen>	
+			
+			<!-- If change the screen, must specify how will change, the background,
+			the position of the characters and of the monsters -->	
+		</Encounter>
+	
+		<!-- Used to say which is the feature used as the order factor for who acts
+		during the battle -->
+		<OrderFactor>Speed</OrderFactor>
+			
+		<!-- Script responsible for the contabilization of the 
+		damage that is made, for the order of things, delay, etc, how the rules of the battle are -->
+		<OnGoing>
+			<File>ongoing.js</File>
+			<Path>res/scripts/rules/</Path>
+		</OnGoing>		
+		
+		<!-- Quantity of characters in a fight -->
+		<Quantity>
+			<!-- For the group -->
+			<PlayerGroup>6</PlayerGroup>
+			<!-- In a battle -->
+			<Battle>3</Battle>
+		</Quantity>
+				
+		<!-- Change characters during battle, true or false, will change by the action
+		that must put as possible -->
+		<Change>false</Change>
+		
+		<!-- The type of attack possible, how it works and
+		how the magic works -->
+		<Attack>
+			<!-- Physical attack, simple or combo -->
+			<Physical>simple</Physical>
+			<!-- Magic attacks, simple, combo1(same time) or combo2(sequence of magics) -->
+			<Magical>simple</Magical>		
+		</Attack>
+	
+		<!-- If the enemys stay in one group or more than one,
+		true for only one and false for more than one, second part not implemented -->
+		<Group>true</Group>
+		
+	</Battle>
+	
+	<!-- The rules for the evolution, everything that can evolve -->
+	<Evolution>
+	
+		<!-- If evolves by using a basic skill to gain advanced skill or by gainning experience,
+		the gaining experience can be when something is used or an item that the character is equipped with,
+		Experience or Use, can have the two types-->
+		<Way>
+			<!-- One way possible -->
+			<Name>Experience</Name>
+			<!-- One way possible -->
+			<Name>Use</Name>			
+		</Way>
+				
+		<!-- What can gain experience, Character, Class, Item, Feature(Magic and Skill), the amount of experience
+		will be determinated in each enemy and the enemy will have the amount for each type -->
+		<What>
+			<!-- The name -->
+			<Name>Class</Name>
+			<!-- The name -->
+			<Name>Feature</Name>			
+		</What>
+		
+		<!-- If what is learned stay with itself, like item makes character learn it or
+		it gains the new ability, the same can be said for class, can
+		be Self or Holder -->
+		<Who>
+			<!-- One tag with the name of the things that evolve and can hold abilitys,
+			like magic can evolve but can´t hold a new magic that will be learned because of it-->
+			<Class>Self</Class>
+		</Who>
+		
+		<!-- If can absorb a Feature, magic or skill, true or false, and must have the Ability to absorb,
+		and the ability can be by different ways -->
+		<Absorb>false</Absorb>
+		
+		<!-- Can create itens that have abilitys, true or false, and must have the Ability to absorb -->
+		<Creation>false</Creation>
+		
+		<!-- If the magic is an item that can be equipped, true or false, must fave the Ability to equip the magic -->
+		<EquipMagic>false</EquipMagic>
+		
+	</Evolution>
+
+</Rules>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<!--
+  File that description of many shops
+-->
+
+<Shops>
+	<ItemShop>
+		<!-- One item of the shop, use the identifier -->
+		<Item>Apple</Item>
+		<!-- One item of the shop, use the identifier -->
+		<Item>Nut</Item>
+		<!-- One item of the shop, use the identifier -->
+		<Item>Bomb</Item>	
+		<Item>Long_Sword</Item>	
+		<Item>Staff</Item>	
+		<Item>IronArmour</Item>	
+		<Item>Mantle</Item>	
+		<Item>Ring</Item>
+		<Item>Amulet</Item>
+	</ItemShop>
+</Shops>
