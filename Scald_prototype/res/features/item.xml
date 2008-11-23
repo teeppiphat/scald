@@ -330,7 +330,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>AttackPower</Name>
+				<Name>AtkPow</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be
@@ -400,7 +400,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>AttackPower</Name>
+				<Name>AtkPow</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be
@@ -470,7 +470,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>DefensePower</Name>
+				<Name>PhyDef</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be
@@ -540,7 +540,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>DefensePower</Name>
+				<Name>PhyDef</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be
@@ -611,7 +611,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>AttackPower</Name>
+				<Name>AtkPow</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be
@@ -681,7 +681,7 @@
 		<ChangeOtherFeatures>
 			<ChangeFeature>
 				<!-- Name of the Feature, identifier -->
-				<Name>DefensePower</Name>
+				<Name>PhyDef</Name>
 				<!-- The type of the Feature that changes -->
 				<Type>Status</Type>
 				<!-- The one that changes, can be duration time(Time), can be use(Use), can be

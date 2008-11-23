@@ -228,7 +228,7 @@
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>The intelligence of the character</Description>			
+			<Description>The power of the characters attack</Description>			
 		</General>		
 		
 		<!--more specific type-->
@@ -258,7 +258,7 @@
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>The intelligence of the character</Description>			
+			<Description>The power of the character magical attack</Description>			
 		</General>		
 		
 		<!--more specific type-->
@@ -288,7 +288,7 @@
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>The intelligence of the character</Description>			
+			<Description>The physical resistence of the character</Description>			
 		</General>		
 		
 		<!--more specific type-->
@@ -318,7 +318,7 @@
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>The intelligence of the character</Description>			
+			<Description>The magical resistence of the character</Description>			
 		</General>		
 		
 		<!--more specific type-->
@@ -348,7 +348,7 @@
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>The intelligence of the character</Description>			
+			<Description>The speed of the character</Description>			
 		</General>		
 		
 		<!--more specific type-->
@@ -461,15 +461,15 @@
 				
 	</Swordsmanship>
 	
-	<UseRod>
+	<UseStaff>
 		<!-- Has the general information -->
 		<General>
 			<!-- Name, will be used in the game -->
-			<Name>Use rod</Name>			
+			<Name>Use staff</Name>			
 			<!-- General type -->
 			<Type>Skill</Type>		
 			<!-- Description -->
-			<Description>Can use a weapon of the type Rod</Description>			
+			<Description>Can use a weapon of the type Staff</Description>			
 		</General>
 				
 		<!--more specific type-->
@@ -478,9 +478,9 @@
 			<!-- type -->
 			<TypeOf>Equipament</TypeOf>
 			<!-- type -->
-			<TypeOf>Rod</TypeOf>			
+			<TypeOf>Staff</TypeOf>			
 		</SpecificType>
-	</UseRod>
+	</UseStaff>
 	
 	<LightArmour>
 	
