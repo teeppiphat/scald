@@ -1,0 +1,47 @@
+This list has the purpose to keep together everything that has to be done or that could be studied in order
+to make part of the framework Scald and improve it. There´s always the possibility of have things missing or
+somebody else have a better idea regardless of it being listed here, if there´s an idea please contact the
+administrator about it, please support this project by helping it improve, any suggestion is welcome.
+
+Thanks from the administrator.
+
+
+Things to be done:
+
+- more tests with the framework, in order to find more bugs
+- the real-time battle system
+- the progressive turn battle system
+- aply the texture to determined body parts, being it by passing the name or a value that indicates the body
+part
+- the menu system to make it possibe by using xml and also that every character can have a different menu,
+so that they have only the options important to them or according to their abilities.
+- more effects to the system, like playing video or shaders
+- make the particle system to have differents use during battle and outside it
+- some rules aren´t being used, like the random rule for battle and the change screen for battle
+- change the xml used to describe the map, because the character can´t have always the same position, must use a
+script to specify where he will appear according to the place he came from - aplies for both way of moving
+- a script to create the begging of the game, tells which cutscene to execute
+- the begging menu to indicate what must execute at each options, so that can call the begging script
+- battle effects when an action happen
+
+
+Bugs:
+
+- not all models work properly with the graphics engine
+- sometimes the character sink when walking
+- the character sometimes sink when colliding
+- the texture is lost when the menu is opened or an event happens
+
+
+
+Ideas:
+
+- can try to implement different type of worlds, like permit the use of 3D or 2D world for the game
+- study other types of RPG systems, like for example the strategy type of RPG and make this type of RPG system possible,
+some ideas are the RPGs Final Fantasy Tactics and Brigandine Legend of Forsena, two different types of strategy RPG
+
+
+
+
+
+For now these are the things that I can remember, whenever I remember something else I will update this file.
