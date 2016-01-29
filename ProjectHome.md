@@ -1,0 +1,3 @@
+A game engine, to give assistance in the creation of games, specifically to games of the genre CRPG.
+This tool will enable the creation of different types of CRPGs without the need of programming all the functionality of the game and its system, making easier the developing of games of the genre CRPG by using its script.
+This project uses the jMonkey Engine, FengGUI and jME Physics 2, so please support their creators and the community.
